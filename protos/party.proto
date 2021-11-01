@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+service Party {
+    rpc OpenDoor(KnockKnockRequest) returns (OpenReply) {}
+
+    rpc Hello(HelloRequest) returns (HiWelcomeReply) {}
+
+}
+
+message KnockKnockRequest {
+    string name = 1;
+}
+
+message OpenReply {
+    string open = 1;
+}
+
+message HelloRequest {
+    string name = 1;
+}
+
+message HiWelcomeReply {
+    string hi_welcome = 1;
+}
