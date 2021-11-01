@@ -13,3 +13,14 @@ in two separate terminal, run `Client` and `Server` program.
 
 server is listening on port `50051` in localhost.
 
+## Execute Server 
+execute this command in separate terminal
+```bash
+    $ source scripts/execute_server.sh
+```
+
+## Execute Client(s)
+execute this command in separates terminal
+```bash
+    $ source scripts/execute_client.sh
+```
